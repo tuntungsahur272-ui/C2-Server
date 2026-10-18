@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.ollie.ratbuilder.app-merged_res-5:/drawable_border_box.xml.flat",
+        "source": "com.ollie.ratbuilder.app-main-7:/drawable/border_box.xml"
+    },
+    {
+        "merged": "com.ollie.ratbuilder.app-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "com.ollie.ratbuilder.app-main-7:/layout/activity_main.xml"
+    }
+]

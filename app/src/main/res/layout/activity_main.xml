@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F1A"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Pairing Device"
+        android:textColor="#FF00FF"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:text="Connect child device"
+        android:textColor="#00FF00"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tvCode"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tvTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/border_box"
+        android:gravity="center"
+        android:text="------"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:letterSpacing="0.5" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tvCode"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#00FFCC"
+        android:text="GENERATE APK"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnGenerate"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#00000000"
+        android:text="RADAR INSTAN"
+        android:textColor="#00FF00" />
+
+</RelativeLayout>
